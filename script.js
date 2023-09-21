@@ -1,8 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const telegramLink = document.getElementById("telegram-link");
-    telegramLink.addEventListener("click", function (e) {
-        e.preventDefault();
-        const telegramID = "RohitFSN";
-        window.location.href = `https://t.me/${telegramID}`;
-    });
+document.getElementById("telegramLink").addEventListener("click", function() {
+    window.location.href = "https://telegram.me/RohitFSN";
 });
